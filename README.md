@@ -3,7 +3,7 @@ Best pratices for developmnet rest api
 Define operations in terms of HTTP methods
 The HTTP protocol defines a number of methods that assign semantic meaning to a request. The common HTTP methods used by most RESTful web APIs are:
 
-#GET 
+# GET 
 retrieves a representation of the resource at the specified URI. The body of the response message contains the details of the requested resource.
 # POST 
 creates a new resource at the specified URI. The body of the request message provides the details of the new resource. Note that POST can also be used to trigger operations that don't actually create resources.
