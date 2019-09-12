@@ -7,5 +7,6 @@ import java.util.List;
 public interface IDataBasesServices {
 
     public List<Predio> getAllPredio();
-    public void generateQuery();
+    public Predio save(Predio predio);
+    public void delete (Integer id);
 }
